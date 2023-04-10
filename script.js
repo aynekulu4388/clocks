@@ -29,6 +29,7 @@ window.addEventListener("load" , ()=>{
             loc.textContent=name;
             climate.textContent=main;
             tempvalue.textContent=math.round(feels_like-273);
+            console.log(data)
         })
     )}
 
